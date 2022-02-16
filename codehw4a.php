@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CHALLENGE: CORRECT CHANGE</title>
+    <title>CHALLENGE: COIN TOSS</title>
 </head>
 <body>
 
@@ -18,8 +18,9 @@ $img_tails= '<img src="data:image/jpeg;base64,'.$imageData.'", style="width:85px
 
 //echo $img_heads;
 //echo $img_tails;
+$j=1;
 
-for($j=1;$j<10;$j++)
+while($j<10)
 {
 echo "<br>";
 echo "<br>";
@@ -36,7 +37,7 @@ if($flip==1)
 else
   echo $img_tails;
 }
-
+$j+=2;
 }
 
 
