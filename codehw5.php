@@ -61,7 +61,7 @@ echo "<table border='6' class='stats' cellspacing='2'>
     <td align='center'>Price</td>
   </tr>";
 $sum=0;
-for($i=1;$i<6;$i++)
+for($i=0;$i<6;$i++)
 {
   echo('<tr>');
   echo('<td style="height:20px;width:800px">' . $book_list[$i][0] . '</td>');
