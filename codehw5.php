@@ -45,7 +45,6 @@ echo "<br>";
 echo "---------------------------------------------------------------------------------------------------------------------------------"."<br>";
 echo "<h1>"."Displaying books' details and total price"."</h1>";
 $book_list= array(
-array("Title","Name","Number of Pages","Type","Price"),
 array("PHP and MySQL Web Development","Luke Welling","144","Paperback",31.63),
 array("Web Design with HTML, CSS, JavaScript and jQuery","Jon Duckett","135","Paperback",41.23),
 array("PHP Cookbook: Solutions & Examples for PHP Programmers","David Sklar","14","Paperback",40.88),
@@ -62,7 +61,7 @@ echo "<table border='6' class='stats' cellspacing='2'>
     <td align='center'>Price</td>
   </tr>";
 $sum=0;
-for($i=1;$i<5;$i++)
+for($i=1;$i<6;$i++)
 {
   echo('<tr>');
   echo('<td style="height:20px;width:800px">' . $book_list[$i][0] . '</td>');
