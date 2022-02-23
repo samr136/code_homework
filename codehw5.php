@@ -43,15 +43,14 @@ echo "</table>";
 
 
 <?php
-echo "<br>";
-echo "-----------------------------------------------------------------------------------------------------------------------------------------------------"."<br>";
+echo "<br>"."<br>";
 function coin_toss($coin)
 {
 $i=1;
 $count=0;
 $flag=0;
 //$count to check for 2 consecutive heads, $flag variable to exit the while loop, $i checks the number of times a coin has been flipped 
-echo "<h1>"."Beginning to Flip the Coin, looking for $coin heads in a row!!"."</h1>";
+echo "<h1>"."Beginning to flip the Coin, looking for $coin heads in a row"."</h1>";
 echo "<br>";
 while($flag==0)
 {
@@ -68,7 +67,7 @@ else
   {
     $flag=1;
     echo "<br>";
-    echo "<h3>"."Flipped the coin $i times!"."</h3>";
+    echo "<h2 style='color:green'>"."Flipped the coin $i times!"."</h2>"; 
     
   }
 $i++;
